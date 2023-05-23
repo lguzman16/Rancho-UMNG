@@ -188,8 +188,8 @@ void leerRFID(void ) {
             }
         }
         }
-        ubidots.add(VARIABLE_LABEL_1, temperaturaC*2);
-        ubidots.add(VARIABLE_LABEL_2, temperaturaC/10);
+        ubidots.add(VARIABLE_LABEL_1, humedad);
+        ubidots.add(VARIABLE_LABEL_2, presion);
         ubidots.add(VARIABLE_LABEL_3, temperaturaC);
         ubidots.add(VARIABLE_LABEL_4, ident);
         ubidots.publish(DEVICE_LABEL);
